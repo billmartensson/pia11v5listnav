@@ -11,6 +11,10 @@
 		AB75F9EE28F7F0E30086DC50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75F9ED28F7F0E30086DC50 /* ContentView.swift */; };
 		AB75F9F028F7F0E50086DC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB75F9EF28F7F0E50086DC50 /* Assets.xcassets */; };
 		AB75F9F328F7F0E50086DC50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB75F9F228F7F0E50086DC50 /* Preview Assets.xcassets */; };
+		AB75F9FA28F7F6960086DC50 /* ReadmoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75F9F928F7F6960086DC50 /* ReadmoreView.swift */; };
+		AB75F9FC28F7F9920086DC50 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75F9FB28F7F9920086DC50 /* ThirdView.swift */; };
+		AB75F9FE28F810C60086DC50 /* TodoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75F9FD28F810C60086DC50 /* TodoInfoView.swift */; };
+		AB75FA0028F825B10086DC50 /* TodoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75F9FF28F825B10086DC50 /* TodoRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AB75F9ED28F7F0E30086DC50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB75F9EF28F7F0E50086DC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB75F9F228F7F0E50086DC50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB75F9F928F7F6960086DC50 /* ReadmoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmoreView.swift; sourceTree = "<group>"; };
+		AB75F9FB28F7F9920086DC50 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		AB75F9FD28F810C60086DC50 /* TodoInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInfoView.swift; sourceTree = "<group>"; };
+		AB75F9FF28F825B10086DC50 /* TodoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				AB75F9EB28F7F0E30086DC50 /* pia11v5listnavApp.swift */,
-				AB75F9ED28F7F0E30086DC50 /* ContentView.swift */,
+				AB75FA0128F8293C0086DC50 /* Todo */,
+				AB75F9F928F7F6960086DC50 /* ReadmoreView.swift */,
+				AB75F9FB28F7F9920086DC50 /* ThirdView.swift */,
 				AB75F9EF28F7F0E50086DC50 /* Assets.xcassets */,
 				AB75F9F128F7F0E50086DC50 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				AB75F9F228F7F0E50086DC50 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB75FA0128F8293C0086DC50 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				AB75F9ED28F7F0E30086DC50 /* ContentView.swift */,
+				AB75F9FF28F825B10086DC50 /* TodoRowView.swift */,
+				AB75F9FD28F810C60086DC50 /* TodoInfoView.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB75F9FC28F7F9920086DC50 /* ThirdView.swift in Sources */,
+				AB75FA0028F825B10086DC50 /* TodoRowView.swift in Sources */,
+				AB75F9FA28F7F6960086DC50 /* ReadmoreView.swift in Sources */,
 				AB75F9EE28F7F0E30086DC50 /* ContentView.swift in Sources */,
 				AB75F9EC28F7F0E30086DC50 /* pia11v5listnavApp.swift in Sources */,
+				AB75F9FE28F810C60086DC50 /* TodoInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
